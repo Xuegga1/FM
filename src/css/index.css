@@ -1,0 +1,391 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+html,body,#root{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.wrap{
+width: 100%;
+height: 100%;
+
+}
+.home{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    }
+.head{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    /* border-bottom: 1px solid #ccc; */
+    line-height: 60px;
+}
+.head li{
+    margin-left: 16px;
+    color:rgb(109, 104, 104);
+}
+.head input{
+    width: 290px;
+    height: 62%;
+    margin-left: 30px;
+    background: rgb(241, 241, 241);
+    outline: 0;
+    border:1px solid #ccc;
+    border-radius: 12px;
+    text-indent: 10px;
+}
+
+.main{
+    width: 100%;
+    flex: 1;
+    overflow: scroll;
+}
+.pare{
+    width: 100%;
+    height: 46px;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    line-height: 46px;
+    justify-content: space-around;
+}
+.ab {
+    color: rgb(109, 104, 104);
+    width: 25%;
+    height: 100%;
+    text-align: center;
+}
+.my{
+    width: 100%;
+    height: 100%;
+}
+.lk{
+    width: 50%;
+    height: 100%;
+    display: flex;
+}
+.sma{
+    width: 100%;
+    height: 60px;
+    border-bottom: 1px solid rgb(212, 210, 210);
+    display: flex;
+    justify-content: space-between;
+    line-height: 60px;
+    text-indent: 10px;
+    color: rgb(43, 42, 42);
+ 
+}
+.sma img{
+    width: 50px;
+    height: 50px;
+    margin-top: 6px;
+    margin-left: 10px;
+}
+.sma li{
+    margin:0 10px 0 0;
+    font-size: 16px;
+    
+}
+.sma li:first-child{
+    font-weight: bold;
+}
+.sma li:nth-child(2){
+    font-size: 18px;
+    color: rgb(114, 113, 113);
+}
+.foot{
+    width: 100%;
+    height: 60px;
+    border-top: 1px solid #ccc;
+    background: rgb(112, 151, 107);
+}
+.my p{
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    color: rgb(40, 40, 236);
+    margin-top: 20px;
+}
+.foot input{
+    width: 62%;;
+    height: 62%;
+    margin-left: 39px;
+    background: rgb(241, 241, 241);
+    outline: 0;
+    border:1px solid #ccc;
+    border-radius: 22px;
+    text-indent: 10px;
+    margin-top: 10px;
+    margin-left: 82px;
+    text-indent: 40px;
+    font-size: 18px;
+}
+.love{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.sc{
+    width: 100%;
+    height: 50px;
+    border-bottom: 1px solid #ccc;
+    line-height: 50px;
+    display: flex;
+ 
+}
+.love p{
+    position: absolute;
+    color: rgb(40, 40, 236);
+    top: 86%;
+    left: 42%;
+
+}
+.love main{
+    width: 100%;
+    flex: 1;
+    overflow: scroll;
+}
+.sc li:nth-child(2){
+    margin-left: 118px;
+    font-size: 20px;
+}
+.sc li:first-child{
+    margin-left: 8px;
+    font-size: 16px;
+    
+}
+.banner{
+    width: 100%;
+    height: 150px;
+}
+.banner img{
+    width: 100%;
+    height: 150px;
+}
+.active{
+    color: white;
+    background: rgb(112, 151, 107);
+}
+.sh{
+    width: 100%;
+    height: 90px;
+    display: flex;
+}
+.show{
+    width: 20%;
+    height: 50%;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 14px;
+}
+.show img{
+    width: 50px;
+    height: 40px;
+}
+.dd{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    /* margin-left: 5px; */
+    /* background: pink; */
+    flex-wrap: wrap;
+}
+.dd div{
+    width:31%;
+    height: 46%;
+    margin-left: 7px; 
+    margin-top: 2px;
+    background: rgb(112, 151, 107);
+ 
+   
+}
+.zj{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    line-height: 50px;
+}
+.zj li{
+    width: 50%;
+    text-align: center;
+}
+.zj li:hover{
+    border-bottom: 2px solid rgb(66, 66, 194);
+}
+.zt{
+    width: 100%;
+    height: 120px;
+    display: flex;
+    margin-top: 10px;
+}
+.zt dt{
+    width: 30%;
+}
+.zt img{
+    width: 100px;
+    height: 100px;
+    margin-left: 8px;
+}
+.zt dd{
+    width: 70%;
+}
+.zt dd li{
+    margin-top: 8px;
+    margin-left: 8px;
+}
+.zt dd li:nth-child(2){
+    color: rgb(104, 103, 103);
+}
+.zt dd li:nth-child(3){
+    color: rgb(104, 103, 103);
+}
+.many{
+    width: 100%;
+    flex: 1;
+}
+.top{
+    width: 100%;
+    height: 44px;
+    display: flex;
+    justify-content: space-around;
+    line-height: 44px;
+    border-bottom: 1px solid #ccc;
+}
+.top a{
+    width: 20%;
+    height: 100%;
+    text-align: center;
+    color: rgb(109, 104, 104);
+}
+.top .active{
+    color: white;
+}
+.bottom{
+    width: 100%;
+    flex: 1;
+}
+.btmSlight{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.btmSlight div{
+width: 100%;
+height: 120px;
+border-bottom: 1px solid #ccc;
+}
+.btmSlight dl{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.btmSlight dt{
+    width: 32%;
+    height: 100%;
+}
+.btmSlight dt img{
+margin-left: 10px;
+margin-top: 10px;
+}
+.btmSlight dd{
+    width: 68%;
+    height: 100%;
+}
+.btmSlight dd li{
+    margin-top: 9px;
+    color: rgb(112, 151, 107);
+}
+.det{
+width: 100%;
+height: 100%;
+display: flex;
+flex-direction: column;  
+background: rgb(245, 244, 244);
+}
+/* .det li{
+   
+} */
+.det li:first-child{
+    /* margin-top: 10px;
+    background: rgb(112, 151, 107);
+    color: white; */
+    font-size: 26px;
+    width: 100%;
+    height: 60px;
+    background: rgb(245, 244, 244);
+    border-bottom: 1px solid #ccc;
+    color: rgb(124, 121, 121);
+    line-height: 60px;
+    text-indent: 10px;
+}
+/* .det li:nth-child(2){
+    margin-top: 8px;
+} */
+.det button{
+    width: 100%;
+    height: 55px;
+    line-height: 55px;
+    outline: 0;
+    border:0;
+    background: rgb(112, 151, 107);
+text-align: center;
+color: white;
+font-size: 18px;
+margin: 0 auto;
+}
+.det dl{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.det dt{
+    width: 32%;
+    height: 100%;
+}
+.det dt img{
+margin-left: 10px;
+margin-top: 10px;
+width: 100px;
+height: 150px;
+}
+.det dd{
+    width: 68%;
+    height: 100%;
+}
+.det dd li{
+    margin-top: 9px;
+    color: rgb(112, 151, 107);
+}
+.love dl{
+    width: 100%;
+    height: 120px;
+    display: flex;
+    border-bottom: 1px solid rgb(216, 216, 216);
+}
+.love dt{
+    width: 32%;
+    height: 100%;
+}
+.love dt img{
+margin-left: 10px;
+margin-top: 10px;
+width: 100px;
+height: 100px;
+}
+.love dd{
+    width: 68%;
+    height: 100%;
+}
+.love dd li{
+    margin-top: 9px;
+    color: rgb(112, 151, 107);
+}
